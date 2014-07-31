@@ -25,5 +25,5 @@ void sort_int_array(int *arr, int *aux_arr, uint32_t low, uint32_t high) {
 1. 使用者必须自己实现比较函数，函数可以参考上面例子
 2. 排序函数的low所所索引的值将会被函数排序，而high所索引的值将不会被排序
 3. aux_arr和arr两个数组的空间大小必须一样
-4. 排序是使用合并排序算法，算法的时间复杂度是O(logN)
+4. 排序是使用合并排序算法，算法的时间复杂度是O(N*logN)
 
